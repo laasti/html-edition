@@ -10,16 +10,16 @@
     ],
     "require": {
         "laasti/symfony-translation-provider": "^2.0.1",
-        "laasti/views": "^0.2",
-        "laasti/application": "^0.2",
-        "laasti/peels": "^0.2",
-        "laasti/directions": "^0.2",
+        "laasti/views": "^0.2.2",
+        "laasti/application": "^0.2.1",
+        "laasti/peels": "^0.2.1",
+        "laasti/directions": "^0.4.1",
         "zendframework/zend-diactoros": "^1.3.3",
         "league/container": "^2.2",
         "monolog/monolog": "^1.17.2",
         "league/booboo": "^1.0.0",
-        "laasti/lazydata": "^0.6",
-        "mustache/mustache": "^2.10.0",
+        "laasti/lazydata": "^0.6.1",
+        "mustache/mustache": "^2.11.0",
         "hassankhan/config": "^0.10.0"
     },
     "require-dev": {
