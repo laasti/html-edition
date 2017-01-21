@@ -9,7 +9,7 @@ class ServiceProvider extends \League\Container\ServiceProvider\AbstractServiceP
     {
         //Do nothing
     }
-    
+
     public function boot()
     {
         $container = $this->getContainer();
@@ -20,7 +20,5 @@ class ServiceProvider extends \League\Container\ServiceProvider\AbstractServiceP
         $container->addServiceProvider('Laasti\Lazydata\Providers\LeagueLazydataProvider');
         $container->addServiceProvider('Laasti\Views\Providers\LeagueViewsProvider');
         $container->addServiceProvider('Laasti\SymfonyTranslationProvider\SymfonyTranslationProvider');
-
     }
-    
 }
